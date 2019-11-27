@@ -1,0 +1,26 @@
+.card__img{
+width: 250px;
+height: 200px;
+display: inline;
+display:flex;
+}
+
+
+.card {
+    width: 200px;
+    height: 250px;
+    text-align: center;
+    border: 1px solid black;
+}
+.card-img {
+    width: 100px;
+    height: 150px;
+}
+/* component:
+ <div className="card">
+        <img src={imagem} className="card-img">
+        </img>
+        <p>Fifa 19</p>
+        <p>R$ 29,90</p>
+    </div> */
+
